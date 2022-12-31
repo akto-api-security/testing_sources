@@ -16,7 +16,7 @@ requests:
       - "{{BaseURL}}/{{locations}}"
 
     payloads:
-      locations: https://raw.githubusercontent.com/akto-api-security/testing_sources/master/OWASP_API_Top10_ImproperAssetsManagement/swagger_pathlist.txt
+      locations: https://raw.githubusercontent.com/akto-api-security/testing_sources/master/OWASP_API_Top10_ImproperAssetsManagement/wordlists/swagger_pathlist.txt
     matchers-condition: and
     matchers:
      - type: status
